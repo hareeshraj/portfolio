@@ -1,0 +1,72 @@
+{
+  "personal": {
+    "name": "Hareesh Raj",
+    "title": "Full Stack Developer",
+    "bio": "Building digital products with a focus on user experience and performance. I turn complex problems into simple, beautiful solutions.",
+    "location": "San Francisco, CA",
+    "email": "hareesh1705@gmail.com",
+    "photo": "/images/photo.jpg",
+    "doodle": "/images/doodle.jpg"
+  },
+  "experience": [
+    {
+      "company": "CDW",
+      "role": "Consultant",
+      "duration": "2025 - Present",
+      "description": "Architecting the next generation of cloud dashboards. Improved load times by 40% and implemented a new design system used across 5 products.",
+      "location": "Chennai, India"
+    },
+    {
+      "company": "CDW",
+      "role": "Associate Consultant",
+      "duration": "2024 - 2025",
+      "description": "Built interactive marketing sites and internal tools. Collaborated with designers to bring award-winning concepts to life using WebGL and React.",
+      "location": "Chennai, India"
+    },
+    {
+      "company": "CDW",
+      "role": "Trainee Consultant",
+      "duration": "2023 - 2024",
+      "description": "Built interactive marketing sites and internal tools. Collaborated with designers to bring award-winning concepts to life using WebGL and React.",
+      "location": "Chennai, India"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Knogu Engineering College",
+      "degree": "B.E. Computer Science",
+      "year": "2019-2023",
+      "description": "Specialized in Human-Computer Interaction and Distributed Systems. Published research on accessible web interfaces.",
+      "location": "Erode, India"
+    },
+    {
+      "institution": "Bharani Park Higher Secondary School",
+      "degree": "High School",
+      "year": "2017-2019",
+      "description": "Dean's List all semesters. Lead developer for the university robotics team.",
+      "location": "Karur, India"
+    }
+  ],
+  "skills": [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Tailwind CSS",
+    "Next.js",
+    "Framer Motion",
+    "Git",
+    "Figma",
+    "PostgreSQL",
+    "Docker"
+  ],
+  "topSkills": [
+    "Java",
+    "Spring Boot",
+    "ReactJS"
+  ],
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/hareesh-raj-ramanathan/",
+    "leetcode": "https://leetcode.com/u/hareesh1705/",
+    "instagram": "https://instagram.com/"
+  }
+}
