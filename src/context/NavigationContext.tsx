@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, type ReactNode } from 'react';
 
-type Section = 'home' | 'experience' | 'education';
+type Section = 'home' | 'experience' | 'education' | 'recommendations';
 
 interface NavigationContextType {
   activeSection: Section;

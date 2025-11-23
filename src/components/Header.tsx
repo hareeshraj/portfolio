@@ -7,7 +7,7 @@ const Header = () => {
   const { activeSection, setActiveSection } = useNavigation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const handleNavClick = (section: 'home' | 'experience' | 'education') => {
+  const handleNavClick = (section: 'home' | 'experience' | 'education' | 'recommendations') => {
     setActiveSection(section);
     setIsMobileMenuOpen(false);
   };
@@ -43,6 +43,15 @@ const Header = () => {
                 }`}
             >
               Education
+            </button>
+            <button
+              onClick={() => handleNavClick('recommendations')}
+              className={`px-4 py-2 rounded-lg font-medium transition-all ${activeSection === 'recommendations'
+                ? 'bg-blue-600 text-white dark:bg-blue-500'
+                : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+                }`}
+            >
+              Recommendations
             </button>
 
             {/* Theme Toggle */}
@@ -91,6 +100,15 @@ const Header = () => {
                   }`}
               >
                 Education
+              </button>
+              <button
+                onClick={() => handleNavClick('recommendations')}
+                className={`px-4 py-2 rounded-lg font-medium text-left transition-all ${activeSection === 'recommendations'
+                  ? 'bg-blue-600 text-white dark:bg-blue-500'
+                  : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+                  }`}
+              >
+                Recommendations
               </button>
             </nav>
           </div>

@@ -6,7 +6,7 @@
     "location": "San Francisco, CA",
     "email": "hareesh1705@gmail.com",
     "photo": "/images/photo.jpg",
-    "doodle": "/images/doodle.jpg"
+    "doodle": "/images/avatar.png"
   },
   "experience": [
     {
@@ -59,6 +59,35 @@
     "PostgreSQL",
     "Docker"
   ],
+  "recommendations": [
+    {
+      "id": 1,
+      "name": "Mounika Murugeshan",
+      "position": "Senior Product Manager",
+      "company": "TechCorp Inc.",
+      "image": "https://randomuser.me/api/portraits/women/44.jpg",
+      "text": "Hareesh is an exceptional developer who consistently delivers high-quality work. His ability to translate complex requirements into elegant technical solutions is impressive. He was a key player in our dashboard redesign project.",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "id": 2,
+      "name": "Karun",
+      "position": "Lead Frontend Engineer",
+      "company": "StartUp Flow",
+      "image": "https://randomuser.me/api/portraits/men/32.jpg",
+      "text": "I had the pleasure of mentoring Hareesh during his time at StartUp Flow. He picks up new technologies incredibly fast and has a great eye for design. His work on our component library saved the team countless hours.",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "id": 3,
+      "name": "Sam",
+      "position": "UX Designer",
+      "company": "Creative Solutions",
+      "image": "https://randomuser.me/api/portraits/women/68.jpg",
+      "text": "Working with Hareesh was a breeze. He understands the importance of user experience and always pushes for the best possible implementation of designs. He's not just a coder, but a true product partner.",
+      "linkedin": "https://linkedin.com"
+    }
+  ],
   "topSkills": [
     "Java",
     "Spring Boot",
@@ -67,6 +96,6 @@
   "social": {
     "linkedin": "https://www.linkedin.com/in/hareesh-raj-ramanathan/",
     "leetcode": "https://leetcode.com/u/hareesh1705/",
-    "instagram": "https://instagram.com/"
+    "medium": "https://medium.com/@hareesh1705"
   }
 }
