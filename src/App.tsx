@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Experience from './components/Experience';
 import Education from './components/Education';
+import Recommendations from './components/Recommendations';
 import Footer from './components/Footer';
 
 const AppContent = () => {
@@ -54,10 +55,23 @@ const AppContent = () => {
               <Education />
             </motion.div>
           )}
-        </AnimatePresence>
-      </main>
 
-      <Footer />
+          {activeSection === 'recommendations' && (
+            <motion.div
+              key="recommendations"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+              className="flex-grow"
+            >
+              <Recommendations />
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <Footer />
+      </main>
     </div>
   );
 };
