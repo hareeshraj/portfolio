@@ -1,9 +1,24 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import portfolioData from '../data/portfolio.json';
 
 const FlipImage = () => {
   const [isFlipped, setIsFlipped] = useState(false);
+
+  useEffect(() => {
+    // Auto-flip animation sequence on mount
+    const flipTimer = setTimeout(() => {
+      setIsFlipped(true);
+
+      const flipBackTimer = setTimeout(() => {
+        setIsFlipped(false);
+      }, 1000); // Show doodle for 1 second
+
+      return () => clearTimeout(flipBackTimer);
+    }, 500); // Start animation after 500ms
+
+    return () => clearTimeout(flipTimer);
+  }, []);
 
   const handleClick = () => {
     setIsFlipped(!isFlipped);

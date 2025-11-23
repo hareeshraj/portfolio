@@ -3,7 +3,7 @@
     "name": "Hareesh Raj",
     "title": "Full Stack Developer",
     "bio": "Building digital products with a focus on user experience and performance. I turn complex problems into simple, beautiful solutions.",
-    "location": "San Francisco, CA",
+    "location": "Chennai, India",
     "email": "hareesh1705@gmail.com",
     "photo": "/images/photo.jpg",
     "doodle": "/images/avatar.png"
@@ -48,14 +48,15 @@
     }
   ],
   "skills": [
+    "SpringBoot",
     "React",
     "TypeScript",
     "Node.js",
     "Tailwind CSS",
     "Next.js",
-    "Framer Motion",
+    "GraphQL",
     "Git",
-    "Figma",
+    "Vercel",
     "PostgreSQL",
     "Docker"
   ],
@@ -63,34 +64,16 @@
     {
       "id": 1,
       "name": "Mounika Murugeshan",
-      "position": "Senior Product Manager",
-      "company": "TechCorp Inc.",
-      "image": "https://randomuser.me/api/portraits/women/44.jpg",
-      "text": "Hareesh is an exceptional developer who consistently delivers high-quality work. His ability to translate complex requirements into elegant technical solutions is impressive. He was a key player in our dashboard redesign project.",
-      "linkedin": "https://linkedin.com"
-    },
-    {
-      "id": 2,
-      "name": "Karun",
-      "position": "Lead Frontend Engineer",
-      "company": "StartUp Flow",
-      "image": "https://randomuser.me/api/portraits/men/32.jpg",
-      "text": "I had the pleasure of mentoring Hareesh during his time at StartUp Flow. He picks up new technologies incredibly fast and has a great eye for design. His work on our component library saved the team countless hours.",
-      "linkedin": "https://linkedin.com"
-    },
-    {
-      "id": 3,
-      "name": "Sam",
-      "position": "UX Designer",
-      "company": "Creative Solutions",
-      "image": "https://randomuser.me/api/portraits/women/68.jpg",
-      "text": "Working with Hareesh was a breeze. He understands the importance of user experience and always pushes for the best possible implementation of designs. He's not just a coder, but a true product partner.",
-      "linkedin": "https://linkedin.com"
+      "position": "Senior Developer",
+      "company": "CDW",
+      "image": "/images/mounika_reco_img.jpeg",
+      "text": "I had the pleasure of working with Hareesh during my time at CDW, and his skills and dedication are exceptional. Though he is a budding talent in the field, his proactive learning approach and impressive full-stack development skills truly distinguish him. He excels at understanding project requirements, supporting his team, and continuously seeking feedback to improve. Beyond his technical abilities, Hareesh is also a fun person to work with, bringing enthusiasm and a positive attitude to the team. He’s a promising new talent and a valuable asset to any team. I highly recommend him.",
+      "linkedin": "https://www.linkedin.com/in/mounika-murugeshan/"
     }
   ],
   "topSkills": [
     "Java",
-    "Spring Boot",
+    "SpringBoot",
     "ReactJS"
   ],
   "social": {

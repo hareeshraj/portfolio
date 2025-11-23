@@ -35,7 +35,7 @@ const Header = () => {
             >
               Experience
             </button>
-            <button
+            {/* <button
               onClick={() => handleNavClick('education')}
               className={`px-4 py-2 rounded-lg font-medium transition-all ${activeSection === 'education'
                 ? 'bg-blue-600 text-white dark:bg-blue-500'
@@ -43,7 +43,7 @@ const Header = () => {
                 }`}
             >
               Education
-            </button>
+            </button> */}
             <button
               onClick={() => handleNavClick('recommendations')}
               className={`px-4 py-2 rounded-lg font-medium transition-all ${activeSection === 'recommendations'

@@ -9,11 +9,11 @@ const Hero = () => {
 
   const questions = [
     {
-      text: 'know my experience',
+      text: 'want to see my work?',
       action: () => setActiveSection('experience'),
     },
     {
-      text: 'education background',
+      text: 'my education?',
       action: () => setActiveSection('education'),
     },
   ];
@@ -99,7 +99,7 @@ const Hero = () => {
                       </svg>
                     )}
                     <span className="font-medium text-gray-800 dark:text-gray-200 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                      {index === 0 ? 'want to see my work?' : 'what i learned?'}
+                      {question.text}
                     </span>
                     <svg className="w-4 h-4 text-gray-400 group-hover:translate-x-1 transition-transform duration-300 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
