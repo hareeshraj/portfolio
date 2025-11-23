@@ -113,7 +113,7 @@ const Footer = () => {
             )}
           </div>
         </div>
-        <div className="mt-6 text-center text-sm text-gray-500 dark:text-gray-400">
+        <div className="mt-6 mb-8 md:mb-0 text-center text-sm text-gray-500 dark:text-gray-400">
           <p>&copy; {new Date().getFullYear()} {portfolioData.personal.name}. All rights reserved.</p>
         </div>
       </div>
