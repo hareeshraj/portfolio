@@ -45,7 +45,7 @@ const Hero = () => {
             <h2 className="text-xl md:text-2xl text-blue-600 dark:text-blue-400 mb-6">
               {portfolioData.personal.title}
             </h2>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
+            <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed px-4 md:px-0">
               {portfolioData.personal.bio}
             </p>
 

@@ -1,4 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
+import { useEffect, useRef } from 'react';
 import { NavigationProvider, useNavigation } from './context/NavigationContext';
 import { ThemeProvider } from './context/ThemeContext';
 import Header from './components/Header';
@@ -10,12 +11,23 @@ import Footer from './components/Footer';
 
 const AppContent = () => {
   const { activeSection } = useNavigation();
+  const mainRef = useRef<HTMLElement>(null);
+
+  // Scroll to top smoothly when section changes
+  useEffect(() => {
+    if (mainRef.current) {
+      mainRef.current.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  }, [activeSection]);
 
   return (
     <div className="h-[100dvh] flex flex-col bg-transparent transition-colors duration-300 overflow-hidden">
       <Header />
 
-      <main className="flex-grow flex flex-col relative overflow-y-auto scroll-smooth">
+      <main ref={mainRef} className="flex-grow flex flex-col relative overflow-y-auto scroll-smooth">
         <AnimatePresence mode="wait">
           {activeSection === 'home' && (
             <motion.div

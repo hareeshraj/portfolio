@@ -32,7 +32,7 @@ const FlipImage = () => {
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: 100, opacity: 0 }}
             transition={{ duration: 0.5, ease: 'easeOut' }}
-            className="absolute -top-14 left-1/2 transform -translate-x-1/2 z-50 pointer-events-none"
+            className="absolute top-0 md:-top-14 left-1/2 transform -translate-x-1/2 z-50 pointer-events-none"
           >
             <div className="relative px-4 py-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-lg shadow-lg whitespace-nowrap">
               <p className="text-white font-semibold text-sm md:text-base">
