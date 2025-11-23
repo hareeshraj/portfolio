@@ -7,6 +7,10 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        heading: ['Outfit', 'sans-serif'],
+      },
       colors: {
         // Custom colors for glassmorphism and themes
       },
