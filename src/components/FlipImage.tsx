@@ -1,49 +1,16 @@
-import { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useState } from 'react';
+import { motion } from 'framer-motion';
 import portfolioData from '../data/portfolio.json';
 
 const FlipImage = () => {
   const [isFlipped, setIsFlipped] = useState(false);
-  const [showMessage, setShowMessage] = useState(false);
-
-  useEffect(() => {
-    // Show message after a short delay
-    const timer = setTimeout(() => {
-      setShowMessage(true);
-      setTimeout(() => {
-        setShowMessage(false);
-      }, 4000);
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, []);
 
   const handleClick = () => {
     setIsFlipped(!isFlipped);
-    if (showMessage) setShowMessage(false);
   };
 
   return (
     <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto" style={{ perspective: '1000px' }}>
-      {/* Neon Sliding Message */}
-      <AnimatePresence>
-        {showMessage && !isFlipped && (
-          <motion.div
-            initial={{ x: -100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: 100, opacity: 0 }}
-            transition={{ duration: 0.5, ease: 'easeOut' }}
-            className="absolute top-0 md:-top-14 left-1/2 transform -translate-x-1/2 z-50 pointer-events-none"
-          >
-            <div className="relative px-4 py-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-lg shadow-lg whitespace-nowrap">
-              <p className="text-white font-semibold text-sm md:text-base">
-                Click me for a surprise! ✨
-              </p>
-              <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-purple-500"></div>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-
       {/* 3D Flip Container */}
       <div
         className="relative w-full h-full transition-transform duration-500 ease-in-out cursor-pointer"
