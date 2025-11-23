@@ -55,9 +55,9 @@ const AppContent = () => {
             </motion.div>
           )}
         </AnimatePresence>
-      </main>
 
-      <Footer />
+        <Footer />
+      </main>
     </div>
   );
 };
