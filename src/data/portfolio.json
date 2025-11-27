@@ -2,7 +2,7 @@
   "personal": {
     "name": "Hareesh Raj",
     "title": "Full Stack Developer",
-    "bio": "Building digital products with a focus on user experience and performance. I turn complex problems into simple, beautiful solutions.",
+    "bio": "Results-driven Full Stack Developer with a strong background in building scalable ecommerce applications using microservices architecture and RESTful services. Experienced in Java, Spring Boot, React.js and MySQL with a proven track record of delivering high-performance solutions.",
     "location": "Chennai, India",
     "email": "hareesh1705@gmail.com",
     "photo": "/images/photo.jpg",
@@ -13,37 +13,44 @@
       "company": "CDW",
       "role": "Consultant",
       "duration": "2025 - Present",
-      "description": "Architecting the next generation of cloud dashboards. Improved load times by 40% and implemented a new design system used across 5 products.",
+      "description": "As a core developer, I drove the successful launch of our new e-commerce platform, boosting efficiency by building a library of reusable components and integrating critical services like Avalara, Klaviyo, and ShipHero. I built the complete gift card lifecycle and a user-friendly dashboard for order tracking. Additionally, I managed a complex legacy system migration while preserving SEO rankings and mentored junior developers to ensure alignment with US stakeholders.",
       "location": "Chennai, India"
     },
     {
       "company": "CDW",
       "role": "Associate Consultant",
       "duration": "2024 - 2025",
-      "description": "Built interactive marketing sites and internal tools. Collaborated with designers to bring award-winning concepts to life using WebGL and React.",
+      "description": "Worked on a hotel booking engine where I optimized RESTful APIs and automated order synchronization, driving a 12% revenue increase and an 85% efficiency boost. I developed scalable backend solutions, revamped user interfaces for better engagement, and integrated critical systems like Hapi CRM and Celopay. Additionally, I enhanced content management, implemented message queues for asynchronous processing, and led SEO optimizations, all while collaborating with stakeholders to drive innovation.",
       "location": "Chennai, India"
     },
     {
       "company": "CDW",
       "role": "Trainee Consultant",
       "duration": "2023 - 2024",
-      "description": "Built interactive marketing sites and internal tools. Collaborated with designers to bring award-winning concepts to life using WebGL and React.",
+      "description": "I contributed to an internal event website by building reusable front-end components that reduced development time by 25%. I also worked on the architecture for a test proctoring system and an online code compiler, implementing full-stack solutions to handle high traffic during campus hiring—efforts that reduced costs by 75%. Furthermore, I implemented Redis caching to improve site performance by 95% and optimized backend controllers for a seamless user experience.",
+      "location": "Chennai, India"
+    },
+    {
+      "company": "CDW",
+      "role": "Student Intern",
+      "duration": "Feb 2023 - May 2023",
+      "description": "Built interactive online exam monitoring application used for campus recruitment. Collaborated with designers to bring award-winning concepts to life using SpringBoot and React.",
       "location": "Chennai, India"
     }
   ],
   "education": [
     {
-      "institution": "Knogu Engineering College",
+      "institution": "Kongu Engineering College",
       "degree": "B.E. Computer Science",
       "year": "2019-2023",
-      "description": "Specialized in Human-Computer Interaction and Distributed Systems. Published research on accessible web interfaces.",
+      "description": "Specialized in Web Development and Distributed Systems. Published research on deep learning for image classification.",
       "location": "Erode, India"
     },
     {
       "institution": "Bharani Park Higher Secondary School",
       "degree": "High School",
       "year": "2017-2019",
-      "description": "Dean's List all semesters. Lead developer for the university robotics team.",
+      "description": "Completed my high school education with a strong foundation in computer science.",
       "location": "Karur, India"
     }
   ],
@@ -56,7 +63,7 @@
     "Next.js",
     "GraphQL",
     "Git",
-    "Vercel",
+    "RabbitMQ",
     "PostgreSQL",
     "Docker"
   ],
