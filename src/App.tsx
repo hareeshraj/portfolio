@@ -8,6 +8,7 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Recommendations from './components/Recommendations';
 import Footer from './components/Footer';
+import ResumeChatbot from './components/ResumeChatbot';
 
 const AppContent = () => {
   const { activeSection } = useNavigation();
@@ -84,6 +85,8 @@ const AppContent = () => {
 
         <Footer />
       </main>
+
+      <ResumeChatbot />
     </div>
   );
 };
