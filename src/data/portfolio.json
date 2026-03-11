@@ -5,8 +5,8 @@
     "bio": "Results-driven Full Stack Developer with a strong background in building scalable ecommerce applications using microservices architecture and RESTful services. Experienced in Java, Spring Boot, React.js and MySQL with a proven track record of delivering high-performance solutions.",
     "location": "Chennai, India",
     "email": "hareesh1705@gmail.com",
-    "photo": "/images/photo.jpg",
-    "doodle": "/images/avatar.png"
+    "photo": "images/photo.jpg",
+    "doodle": "images/avatar.png"
   },
   "experience": [
     {
@@ -73,7 +73,7 @@
       "name": "Mounika Murugeshan",
       "position": "Senior Developer",
       "company": "CDW",
-      "image": "/images/mounika_reco_img.jpeg",
+      "image": "images/mounika_reco_img.jpeg",
       "text": "I had the pleasure of working with Hareesh during my time at CDW, and his skills and dedication are exceptional. Though he is a budding talent in the field, his proactive learning approach and impressive full-stack development skills truly distinguish him. He excels at understanding project requirements, supporting his team, and continuously seeking feedback to improve. Beyond his technical abilities, Hareesh is also a fun person to work with, bringing enthusiasm and a positive attitude to the team. He’s a promising new talent and a valuable asset to any team. I highly recommend him.",
       "linkedin": "https://www.linkedin.com/in/mounika-murugeshan/"
     }

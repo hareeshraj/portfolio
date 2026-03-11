@@ -100,7 +100,7 @@ const Footer = () => {
                 className="text-gray-600 dark:text-gray-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors"
                 aria-label="LeetCode"
               >
-                <img src="/images/leetcode.png" className="w-6 h-6" />
+                <img src="images/leetcode.png" className="w-6 h-6" />
               </a>
               <a
                 href={portfolioData.social.medium}
