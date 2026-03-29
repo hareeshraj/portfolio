@@ -2,7 +2,7 @@
   "personal": {
     "name": "Hareesh Raj",
     "title": "Full Stack Developer",
-    "bio": "Results-driven Full Stack Developer with a strong background in building scalable ecommerce applications using microservices architecture and RESTful services. Experienced in Java, Spring Boot, React.js and MySQL with a proven track record of delivering high-performance solutions.",
+    "bio": "Full Stack Developer with 3+ years of hands-on experience designing and delivering scalable, high-performance applications across e-commerce and enterprise platforms. Proficient in Java, Spring Boot, RESTful APIs, microservices architecture, cloud-native deployments, and business-focused third-party integrations.",
     "location": "Chennai, India",
     "email": "hareesh1705@gmail.com",
     "photo": "images/photo.jpg",
@@ -55,17 +55,32 @@
     }
   ],
   "skills": [
-    "SpringBoot",
-    "React",
-    "TypeScript",
-    "Node.js",
-    "Tailwind CSS",
-    "Next.js",
-    "GraphQL",
-    "Git",
+    "GitHub Copilot",
+    "Cursor",
+    "Claude",
+    "ChatGPT",
+    "Java 17",
+    "Spring Boot 3",
+    "Microservices",
+    "REST APIs",
     "RabbitMQ",
+    "React.js 17",
+    "Redux",
+    "TypeScript",
+    "LESS/SASS",
+    "MySQL",
+    "MongoDB",
     "PostgreSQL",
-    "Docker"
+    "Redis",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "GitHub Actions",
+    "JUnit",
+    "JMeter",
+    "Swagger",
+    "Postman",
+    "System Design"
   ],
   "recommendations": [
     {
@@ -79,9 +94,12 @@
     }
   ],
   "topSkills": [
-    "Java",
-    "SpringBoot",
-    "ReactJS"
+    "Java 17",
+    "Spring Boot 3",
+    "React.js 17",
+    "Microservices",
+    "AWS",
+    "RabbitMQ"
   ],
   "social": {
     "linkedin": "https://www.linkedin.com/in/hareesh-raj-ramanathan/",

@@ -14,22 +14,22 @@ interface ResumeRule {
 }
 
 export const suggestedResumeQuestions = [
-  'What is his current role at CDW?',
   'What are his strongest backend skills?',
-  'Summarize his experience in 5 lines.',
   'What cloud and DevOps tools does he use?',
-  'What awards has he received?',
+  'What AI tools does he actively use?',
+  'Summarize his CDW experience in 5 lines.',
+  'What testing practices does he follow?',
 ];
 
 const resumeRules: ResumeRule[] = [
   {
     keywords: ['summary', 'about', 'introduce', 'profile', 'who is', 'tell me about'],
     answer: {
-      text: 'Hareesh is a Full Stack Java Developer with 3+ years of experience building scalable applications with Java, Spring Boot, and React.js. His resume highlights REST APIs, microservices, high-performance backend systems, and production delivery for e-commerce and enterprise platforms.',
+      text: 'Hareesh is a Full Stack Developer with 3+ years of experience building scalable and high-performance applications for e-commerce and enterprise platforms. He specializes in Java 17, Spring Boot 3, REST APIs, microservices, cloud-native deployment, and business-focused integrations.',
       sources: [
         {
           section: 'Professional Summary',
-          snippet: '3+ years of experience with Java, Spring Boot, React.js, REST APIs, and microservices.',
+          snippet: '3+ years across scalable applications, Java/Spring Boot, REST APIs, microservices, and cloud-native deployments.',
         },
       ],
     },
@@ -37,7 +37,7 @@ const resumeRules: ResumeRule[] = [
   {
     keywords: ['current role', 'present', 'consultant', 'cdw', 'current company'],
     answer: {
-      text: 'He is currently working as a Consultant at CDW Technologies India Pvt Ltd (October 2025 to Present). Key work includes e-commerce platform launch, reusable React components, gift card lifecycle, third-party integrations (Avalara/Klaviyo/ShipHero), and legacy migration with SEO-safe URL rewrites.',
+      text: 'He is currently a Consultant at CDW Technologies India Pvt Ltd (October 2025 to Present). Key work includes scalable e-commerce launch, modular UI components, gift-card lifecycle, full-stack self-service dashboard, third-party integrations (Avalara/Klaviyo/ShipHero), and legacy migration with SEO-safe rewrites.',
       sources: [
         {
           section: 'Work Experience',
@@ -45,7 +45,7 @@ const resumeRules: ResumeRule[] = [
         },
         {
           section: 'Work Experience',
-          snippet: 'Built gift card lifecycle, order dashboard, and handled legacy migration with SEO URL rewrites.',
+          snippet: 'Built gift card lifecycle and self-service dashboard; led legacy migration with SEO URL rewrites.',
         },
       ],
     },
@@ -53,7 +53,7 @@ const resumeRules: ResumeRule[] = [
   {
     keywords: ['experience', 'years', 'career', 'timeline', 'work history'],
     answer: {
-      text: 'His resume shows 3+ years of professional experience at CDW across four roles: Student Intern (Feb 2023–May 2023), Trainee Consultant (Jul 2023–Mar 2024), Associate Consultant (Apr 2024–Sep 2025), and Consultant (Oct 2025–Present).',
+      text: 'His resume shows 3+ years at CDW across four roles: Student Intern (Feb 2023 to May 2023), Trainee Consultant (Jul 2023 to Mar 2024), Associate Consultant (Apr 2024 to Sep 2025), and Consultant (Oct 2025 to Present).',
       sources: [
         {
           section: 'Professional Summary',
@@ -67,13 +67,13 @@ const resumeRules: ResumeRule[] = [
     },
   },
   {
-    keywords: ['backend', 'java', 'spring boot', 'api', 'microservice', 'kafka', 'rabbitmq'],
+    keywords: ['backend', 'java', 'spring boot', 'api', 'microservice', 'rabbitmq', 'java 17', 'spring boot 3'],
     answer: {
-      text: 'His backend stack in the resume includes Java, Spring Boot, RESTful APIs, Kafka, RabbitMQ, Redis, and database optimization. He has also implemented asynchronous integrations using message queues and built scalable APIs for high-traffic systems.',
+      text: 'His backend stack includes Java 17, Spring Boot 3, microservices, REST APIs, and RabbitMQ. He has delivered high-performance APIs, asynchronous queue-based integrations, and reliable backend systems for high-traffic production use cases.',
       sources: [
         {
           section: 'Skills',
-          snippet: 'Backend Development: Java, Spring Boot, Kafka, RabbitMQ, RESTful APIs.',
+          snippet: 'Backend: Java 17, Spring Boot 3, Microservices, REST APIs, RabbitMQ.',
         },
         {
           section: 'Work Experience',
@@ -83,33 +83,45 @@ const resumeRules: ResumeRule[] = [
     },
   },
   {
-    keywords: ['frontend', 'react', 'typescript', 'redux', 'ui', 'user interface'],
+    keywords: ['frontend', 'react', 'typescript', 'redux', 'ui', 'user interface', 'less', 'sass'],
     answer: {
-      text: 'Frontend skills listed are React.js, Redux, TypeScript, CSS, and jQuery. In delivery work, he built reusable UI components, revamped booking workflows, and created React dashboards connected with Spring Boot APIs.',
+      text: 'Frontend skills listed are HTML/CSS, JavaScript, TypeScript, React.js 17, Redux, and LESS/SASS. In delivery work, he built modular UI components, improved booking workflows, and integrated frontend with backend APIs for better user experience.',
       sources: [
         {
           section: 'Skills',
-          snippet: 'Frontend Development: React.js, Redux, TypeScript, CSS, jQuery.',
+          snippet: 'Frontend: HTML/CSS, JavaScript, TypeScript, React.js 17, Redux, LESS/SASS.',
         },
         {
           section: 'Work Experience',
-          snippet: 'Built reusable React components and user dashboards integrated with backend APIs.',
+          snippet: 'Built modular UI components and integrated frontend workflows with backend services.',
         },
       ],
     },
   },
   {
-    keywords: ['cloud', 'aws', 'devops', 'docker', 'kubernetes', 'nginx', 'deployment'],
+    keywords: ['cloud', 'aws', 'devops', 'docker', 'kubernetes', 'deployment', 'github actions'],
     answer: {
-      text: 'Cloud/DevOps tools in the resume: AWS (EC2, S3, RDS, DynamoDB, ECS), Nginx, Docker, and Kubernetes. The summary also mentions cloud deployments on AWS.',
+      text: 'Cloud/DevOps tools in the resume are AWS (EC2, S3, RDS, DynamoDB, ECS), Docker, Kubernetes, and GitHub Actions. The summary also highlights cloud-native deployments.',
       sources: [
         {
           section: 'Skills',
-          snippet: 'Cloud & DevOps: AWS (EC2, S3, RDS, DynamoDB, ECS), Nginx, Docker, Kubernetes.',
+          snippet: 'Cloud & DevOps: AWS (EC2, S3, RDS, DynamoDB, ECS), Docker, Kubernetes, GitHub Actions.',
         },
         {
           section: 'Professional Summary',
-          snippet: 'Cloud deployments on AWS.',
+          snippet: 'Mentions cloud-native deployments and scalable platform delivery.',
+        },
+      ],
+    },
+  },
+  {
+    keywords: ['ai', 'copilot', 'cursor', 'claude', 'chatgpt', 'ai adoption'],
+    answer: {
+      text: 'He actively uses AI tools in day-to-day engineering. Resume-listed tools are GitHub Copilot, Cursor, Claude, and ChatGPT.',
+      sources: [
+        {
+          section: 'Skills',
+          snippet: 'AI Adoption: GitHub Copilot, Cursor, Claude, ChatGPT.',
         },
       ],
     },
@@ -126,6 +138,18 @@ const resumeRules: ResumeRule[] = [
         {
           section: 'Work Experience',
           snippet: 'Implemented Redis caching and improved application performance.',
+        },
+      ],
+    },
+  },
+  {
+    keywords: ['testing', 'junit', 'jmeter', 'postman', 'swagger', 'quality', 'best practices', 'sdd', 'spec driven'],
+    answer: {
+      text: 'Testing and quality practices listed are Spec Driven Development, JUnit, JMeter, code reviews, integration testing, Postman, and Swagger documentation/testing.',
+      sources: [
+        {
+          section: 'Skills',
+          snippet: 'Testing & Best Practices include Spec Driven Development, JUnit, JMeter, integration testing, Postman, and Swagger.',
         },
       ],
     },
